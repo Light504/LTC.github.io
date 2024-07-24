@@ -1,0 +1,83 @@
+body{
+  background-image: radial-gradient(#B90DDC, #572D86);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.timer {
+  color: #F7E7FB;
+  height: 30vh;
+  width: 55%;
+  padding: 30px auto;
+  font-family: rowdies;
+  border: solid;
+  border-radius: 10px;
+  position: absolute; 
+  top: 42%; 
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.3);
+  margin: 10px auto;
+}
+
+.timer span{
+  font-size: 10vw;
+  text-align: center;
+  display: inline-block;
+  position: relative;
+}
+
+.timer span::after{
+  position: absolute;
+  font-size: 20px;
+  bottom: -5px;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+#hours::after{
+  content: "HOURS";
+}
+
+#minutes::after{
+  content: "MINS";
+}
+
+#seconds::after{
+  content: "SEC";
+}
+
+h1{
+  text-align: center;
+  font-size: 65px;
+  font-family: rowdies;
+  color: white;
+  text-shadow: 10px 10px 30px rgba(0, 0, 0, 0.3);
+  margin: 50px 20% 40px 20%;
+}
+
+button {
+  background-color: #F7E7FB;
+  border: none;
+  height: 90px;
+  width: 300px;
+  border-radius: 10px;
+  font-family: rowdies;
+  font-size: 3.3vh;
+  padding: 20px;
+  text-align: center;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.3);
+  position: absolute;
+  bottom: 21vh;
+  left: 50%;
+  margin: 10px auto;
+  transform: translate(-50%, -50%);
+}
+
+#time-format-toggle:hover {
+  background-color: #7c40bf;
+  color: #F7E7FB;
+}
