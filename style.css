@@ -90,3 +90,14 @@ button {
   background-color: #7c40bf;
   color: #F7E7FB;
 }
+
+p{
+  text-align: center;
+  font-size: 14px;
+  font-family: rowdies;
+  color: white;
+  text-shadow: 10px 10px 30px rgba(0, 0, 0, 0.3);
+  transform: translate(-50% -50%);
+  position: relative;
+  top: 50vh;
+}
