@@ -1,0 +1,34 @@
+@media (max-width: 768px) { 
+  /* Styles for smaller screens (tablets, phones) */
+
+  .timer {
+    height: 120px; /* Reduce the height of the timer */
+    width: 90%; /* Make the timer take up most of the screen width */
+    font-size: 100px; /* Adjust the font size */
+    margin: 0 auto; /* Center the timer horizontally */
+  }
+
+  #time-format-toggle {
+    width: 80%; /* Make the button wider */
+    margin: 10px auto; /* Center the button horizontally */
+  }
+
+  /* Additional styles as needed */
+}
+
+@media (max-width: 768px) { 
+  /* ... existing styles ... */
+
+  .timer {
+    height: 150px; /* Adjust height as needed */
+    width: 90%; /* Take up most of the screen width */
+    font-size: 80px; /* Reduce font size for readability */
+    margin: 20px auto; /* Center horizontally */
+  }
+
+  #time-format-toggle {
+    width: 80%; /* Make the button wider */
+    margin: 10px auto; /* Center the button horizontally */
+    font-size: 18px; /* Adjust font size for readability */
+  }
+}
